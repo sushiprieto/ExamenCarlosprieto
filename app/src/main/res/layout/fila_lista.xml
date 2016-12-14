@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imgIcon"
+        android:src="@drawable/jugador00"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="150sp"
+        android:layout_height="110sp"
+        android:layout_toRightOf="@id/imgIcon">
+        <TextView
+            android:id="@+id/txvTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="defecto"
+            />
+        <TextView
+            android:id="@+id/txvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="info"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

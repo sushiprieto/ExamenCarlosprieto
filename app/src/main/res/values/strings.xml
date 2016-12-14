@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamenCarlosprieto</string>
+    <string name="rdbBase">Base</string>
+    <string name="rdbEscolta">Escolta</string>
+    <string name="rdbAlero">Alero</string>
+    <string name="rdbAlapivot">Ala-Pivot</string>
+    <string name="rdbPivot">Pivot</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detalles_jugador">DetallesJugador</string>
+</resources>
